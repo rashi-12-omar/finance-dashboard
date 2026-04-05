@@ -1,3 +1,7 @@
+### Project Link : https://www.google.com/search?q=https://github.com/rashi-12-omar/finance-dashboard
+### Live Demo: https://finance-dashboard-weld-tau-87.vercel.app/
+
+
 # FinTrack: Personal Finance Dashboard
 FinTrack is a modern, responsive finance management dashboard built with React, Vite, and Tailwind CSS. It allows users to track income, expenses, and visualize spending patterns through interactive charts while supporting role-based access and dark mode.
 
@@ -82,4 +86,4 @@ src/
  └── main.jsx         # Entry point
 ```
 
- ### Project Link : https://www.google.com/search?q=https://github.com/rashi-12-omar/finance-dashboard
+ 
