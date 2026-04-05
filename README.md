@@ -1,4 +1,4 @@
-### Project Link : https://www.google.com/search?q=https://github.com/rashi-12-omar/finance-dashboard
+### Project Link : https://github.com/rashi-12-omar/finance-dashboard
 ### Live Demo: https://finance-dashboard-weld-tau-87.vercel.app/
 
 
