@@ -15,12 +15,13 @@ Data Export: Securely export your transaction history as a JSON file.
 Smart Insights: Automated alerts for high-spending categories (e.g., Rent).
 
 ## Tech Stack
-Technology,Use Case
-React (Vite),Frontend Framework (Fast HMR)
-Tailwind CSS,Utility-first Styling & Dark Mode
-Recharts,Interactive Data Visualization
-Lucide React,Modern UI Iconography
-Zustand / State,Global State Management
+| Technology        | Use Case                              |
+|------------------|----------------------------------------|
+| React (Vite)     | Frontend Framework (Fast HMR)         |
+| Tailwind CSS     | Utility-first Styling & Dark Mode     |
+| Recharts         | Interactive Data Visualization        |
+| Lucide React     | Modern UI Iconography                 |
+| Zustand / State  | Global State Management               |
 
 ## Approach
 1) Component-Driven Development: Built using modular components (TransactionTable, SummaryCards, DashboardCharts) for maximum reusability and clean code.
@@ -31,24 +32,47 @@ Zustand / State,Global State Management
 
 4) UX Focus: Prioritized high-contrast accessibility (Dark Mode) and smooth transitions (framer-motion / CSS transitions) for a professional feel.
 
-## Getting Started
-Follow these steps to run the project locally on your machine.
-### Prerequisites
-Node.js (v16.0.0 or higher)
+
 
 npm or yarn
-### Installation
-1) Clone the repository:
-   git clone https://github.com/rashi-12-omar/finance-dashboard.git
-   cd finance-dashboard
-2) Install dependencies:
-   npm install
-3) Start the development server:
-   npm run dev
-4) Build for production:
-   npm run build
+## 🚀 Getting Started
+
+Follow these steps to run the project locally on your machine.
+
+### 📌 Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v16.0.0 or higher)
+- npm or yarn
+
+---
+
+### ⚙️ Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/rashi-12-omar/finance-dashboard.git
+cd finance-dashboard
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Start the development server**
+```bash
+npm run dev
+```
+
+4. **Build for production**
+```bash
+npm run build
+```
 
 ## Project Structure
+```plain text
 src/
  ├── assets/          # Static images/icons
  ├── components/      # UI Components (Charts, Tables, Cards)
@@ -56,5 +80,6 @@ src/
  ├── App.jsx          # Main Layout & Role Logic
  ├── index.css        # Tailwind & Global Styles
  └── main.jsx         # Entry point
+```
 
  ### Project Link : https://www.google.com/search?q=https://github.com/rashi-12-omar/finance-dashboard
