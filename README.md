@@ -1,16 +1,60 @@
-# React + Vite
+# FinTrack: Personal Finance Dashboard
+FinTrack is a modern, responsive finance management dashboard built with React, Vite, and Tailwind CSS. It allows users to track income, expenses, and visualize spending patterns through interactive charts while supporting role-based access and dark mode.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Key Features
+Role-Based Access Control (RBAC): Toggle between Admin and Viewer roles. Admins can add/delete transactions, while Viewers have read-only access.
 
-Currently, two official plugins are available:
+Interactive Data Visualization: Dynamic Area Charts for activity trends and Donut Charts for category-wise spending breakdown using Recharts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Real-time Filtering & Search: Search transactions by category or filter by type (Income/Expense) and date.
 
-## React Compiler
+Theme Switching: Fully optimized Dark Mode for a premium user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Data Export: Securely export your transaction history as a JSON file.
 
-## Expanding the ESLint configuration
+Smart Insights: Automated alerts for high-spending categories (e.g., Rent).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+Technology,Use Case
+React (Vite),Frontend Framework (Fast HMR)
+Tailwind CSS,Utility-first Styling & Dark Mode
+Recharts,Interactive Data Visualization
+Lucide React,Modern UI Iconography
+Zustand / State,Global State Management
+
+## Approach
+1) Component-Driven Development: Built using modular components (TransactionTable, SummaryCards, DashboardCharts) for maximum reusability and clean code.
+
+2) Tailwind JIT Engine: Leveraged Tailwind's Just-In-Time engine to handle complex dark mode transitions and responsive layouts efficiently.
+
+3) State Logic: Implemented a centralized state for transactions, allowing real-time updates across the dashboard without page refreshes.
+
+4) UX Focus: Prioritized high-contrast accessibility (Dark Mode) and smooth transitions (framer-motion / CSS transitions) for a professional feel.
+
+## Getting Started
+Follow these steps to run the project locally on your machine.
+### Prerequisites
+Node.js (v16.0.0 or higher)
+
+npm or yarn
+### Installation
+1) Clone the repository:
+   git clone https://github.com/rashi-12-omar/finance-dashboard.git
+   cd finance-dashboard
+2) Install dependencies:
+   npm install
+3) Start the development server:
+   npm run dev
+4) Build for production:
+   npm run build
+
+## Project Structure
+src/
+ ├── assets/          # Static images/icons
+ ├── components/      # UI Components (Charts, Tables, Cards)
+ ├── store/           # State management logic
+ ├── App.jsx          # Main Layout & Role Logic
+ ├── index.css        # Tailwind & Global Styles
+ └── main.jsx         # Entry point
+
+ ### Project Link : https://www.google.com/search?q=https://github.com/rashi-12-omar/finance-dashboard
